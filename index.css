@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background-color: black;
+    font-family: arial;
+}
+h4 {
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    color: white;
+}
+.image {
+    height:60px;
+    width:80px;
+    padding: 10px;
+}
+.image-back {
+    background-color:white;
+    border: 2px solid white;
+    padding: 10px;  
+    border-radius: 50%;
+    margin: 10px;
+    }
+.picked-button {
+    height: 50px;
+    width: 70px;
+}
+.inform-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:50px;
+}
+.score-view {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:50px;
+}
+.show-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:50px;
+}
+.reset-button {
+   font-size:15px;
+   padding:5px 12.5px;
+   cursor: pointer;
+   color: white;
+   background-color: green;
+   border: 2px solid white;
+   margin-top: 50px;
+   border-radius: 5px;
+}
+@media(max-width:500px) {
+    .image {
+        height:40px;
+        width:60px;
+        padding: 5px;
+    }
+    .image-back {
+        background-color:white;
+        border: 2px solid white;
+        padding: 5px;  
+        border-radius: 50%;
+        margin: 5px;
+    }
+    .inform-result {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top:30px;
+    }
+    .score-view {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top:30px;
+    }
+    .show-result {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top:30px;
+    }
+}
